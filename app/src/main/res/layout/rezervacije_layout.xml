@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tekstPoruka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp">
+
+        <TableRow
+            android:id="@+id/tableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="Broj leta"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView61"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="Od"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView78"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="Do"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView321"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="Datum"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView1"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="Vreme"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow84"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/brojLetaPolazak"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text=""
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/odPolazak"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text=""
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/doPolazak"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text=""
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/datumPolazak"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text=""
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/vremePolazak"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text=""
+                android:textColor="#000000" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12sp">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextView010"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="Broj leta"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView614"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="Od"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView787"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="Do"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView3218"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="Datum"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="Vreme"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow841"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/brojLetaPovratak"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text=""
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/odPovratak"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text=""
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/doPovratak"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text=""
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/datumPovratak"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text=""
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/vremePovratak"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text=""
+                android:textColor="#000000" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

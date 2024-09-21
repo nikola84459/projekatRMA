@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Broj leta"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextView61"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Od"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextView78"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Do"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextView321"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Datum"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Vreme"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextView011"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Cena"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow84"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/brojLeta"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="#d3d3d3"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text=""
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/od"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="#d3d3d3"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text=""
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/odrediste"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="#d3d3d3"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text=""
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/datum"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="#d3d3d3"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text=""
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/vreme"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="#d3d3d3"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text=""
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/cena"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="#d3d3d3"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text=""
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/dugmeRezervisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Izaberi" />
+
+    </TableRow>
+
+
+</TableLayout>

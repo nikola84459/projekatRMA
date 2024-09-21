@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PotvrdiLetActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6sp"
+                android:gravity="center"
+                android:text="Izabrani letovi"
+                android:textSize="18sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20sp">
+
+                <LinearLayout
+                    android:id="@+id/tabelaRezervacije"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Odlazni let"
+                        android:textSize="18sp" />
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="7sp">
+
+                        <TableRow
+                            android:id="@+id/tableRow"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/TextView01"
+                                android:layout_weight="1"
+                                android:background="#dcdcdc"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="Broj leta"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/TextView61"
+                                android:layout_weight="1"
+                                android:background="#dcdcdc"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="Od"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/TextView78"
+                                android:layout_weight="1"
+                                android:background="#dcdcdc"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="Do"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/TextView321"
+                                android:layout_weight="1"
+                                android:background="#dcdcdc"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="Datum"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/TextView1"
+                                android:layout_weight="1"
+                                android:background="#dcdcdc"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="Vreme"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow84"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/brojLetaPolazak"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text=""
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/odPolazak"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text=""
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/doPolazak"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text=""
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/datumPolazak"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text=""
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/vremePolazak"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text=""
+                                android:textColor="#000000" />
+
+
+                        </TableRow>
+
+                    </TableLayout>
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="110sp"
+                        android:text="Povratni let"
+                        android:textSize="18sp" />
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="7sp">
+
+                        <TableRow
+                            android:id="@+id/tableRow1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/TextView07"
+                                android:layout_weight="1"
+                                android:background="#dcdcdc"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="Broj leta"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/TextView614"
+                                android:layout_weight="1"
+                                android:background="#dcdcdc"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="Od"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/TextView780"
+                                android:layout_weight="1"
+                                android:background="#dcdcdc"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="Do"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/TextView3219"
+                                android:layout_weight="1"
+                                android:background="#dcdcdc"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="Datum"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/TextView14"
+                                android:layout_weight="1"
+                                android:background="#dcdcdc"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="Vreme"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/textView28"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow845"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/brojLetaPovratak"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text=""
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/odPovratak"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text=""
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/doPovratak"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text=""
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/datumPovratak"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text=""
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/vremePovratak"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#d3d3d3"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text=""
+                                android:textColor="#000000" />
+
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <TextView
+                        android:id="@+id/cena"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6sp"
+                        android:gravity="right"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/dugmePotvrda"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="250sp"
+                        android:layout_marginLeft="250sp"
+                        android:layout_marginTop="14sp"
+                        android:text="Rezerviši" />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
