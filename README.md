@@ -1,4 +1,5 @@
 Description:
+
 This project involves the development of an Android mobile application using the Java programming language. The application is designed for purchasing airline tickets.
 
 The user can enter details about their trip (departure location, arrival location, date, etc.), and if flights matching the entered information are found, the user can select the desired outbound and return flights. Afterward, the user enters necessary personal information to complete the reservation.
