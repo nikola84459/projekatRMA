@@ -1,9 +1,10 @@
-U ovom projektu je urađena aplikacija za Android mobilne uređaje primenom Java programskog jezika.
-Aplikacija je namenjena za kupovinu avio karata.
+Description:
+This project involves the development of an Android mobile application using the Java programming language. The application is designed for purchasing airline tickets.
 
-Korisnik ima mogućnost da unese podatke o svom putovanju (mesto polaska, mesto dolaska, datum, itd...) i nakon toga ukoliko su pronadjeni letovi za unete podatke korisnik bira željeni odlazni let i željeni povratni let.
-Nakon toga korisnik unosi neophodne lične podatke kako bi se izvršila rezervacija.
-Posle unosa ličnih podataka korisnik unosi podatke o platnoj kartici kako bi se uspešno izvršila kupovina avionske karte.
+The user can enter details about their trip (departure location, arrival location, date, etc.), and if flights matching the entered information are found, the user can select the desired outbound and return flights. Afterward, the user enters necessary personal information to complete the reservation.
 
-Korisnik ima mogućnost da pregleda izvršene rezervacija, takođe i kada je korisnik van dometa mreže ima mogućnost da pregleda rezervacije s obzirom da su smeštene i u SQLite bazu podataka lokalno na uređaju.
-Korisnik takođe ima mogućnost i da se čekira na let preko aplikacije, tako što odabere opciju za čekiranje i unese podatke o putnom dokumentu.
+Once personal details are entered, the user provides payment card information to successfully purchase the airline ticket.
+
+The user can view completed reservations. Additionally, when the user is out of network coverage, they can still view reservations as they are stored locally in an SQLite database on the device.
+
+The user also has the option to check-in for a flight through the app by selecting the check-in option and entering travel document details.
